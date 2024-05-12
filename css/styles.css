@@ -169,13 +169,16 @@ a {
     image-rendering: crisp-edges;
     image-rendering: pixelated;
 }
-  .bg-cover {
+.bg-cover {
     background-size: cover !important;
 }
 
 body {
     min-height: 100vh;
 }
+
+
+
 
 
 
