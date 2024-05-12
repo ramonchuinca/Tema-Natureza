@@ -1,37 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap');
+
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Josefin Sans', sans-serif;
-    
-    
+    font-family: 'Inter', sans-serif;   
 }
-
-.caixa-principal {
-    height: 100vh;
-    width: 100%;
-    background-color:;
-   
-}
-
 nav {
-    display: flex;
-    align-items: center;
+    display: inline-flex;
+    align-items:center;
     justify-content: space-between;
-    padding-left: 35px;
-    padding-right: 30px;
-    padding-top: 25px;
-    
+    padding-left: 55px;
+    padding-right:50px;
+    padding-top: 25px;  
 }
 
+.imagem {
+    height: 300px;
+    width: 300px; 
+    border-radius: 50%;
+    border: 2px solid red;
+    cursor: pointer;
+    align-items: center;
+    margin: 0 8px;
+    margin-top: 25px;margin-left: 50px;
+    display: flex;
+    margin-right: -115px;
+  
+}
+
+.texto h4{
+    color: #000;
+    margin-right:250px;
+    color:red;  
+}
+
+.texto-2{
+    color: #000;
+    margin-right:280px;
+    color:red;  
+}
+.texto-3 {
+    color:red;
+    margin-right: 370px;
+}
+.ajuste-1{
+    margin-left:-200px;
+    font-size: medium;
+}
+
+.btn-image {
+    background-color:#65c7f5;
+    color: #0f141c;
+    border: none; 
+    padding: 12px 30px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    border-radius: 10px; 
+    transition: background-color 0.3s ease;
+    margin-top: 40px;
+    
+}
+.col-sm-6 p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: smaller;
+}
 .portfolio {
-    color: #0f141c;;
+    color: green;
     font-size: 40px;
     font-weight: 500;
-    display: flex;
+    display: inline-flex;
 }
-
-
 
 li {
     color: black;
@@ -44,95 +84,117 @@ li {
 
 a {
     display: flex;
+    color: aliceblue;
 }
 
 .link-menu {
     text-decoration: none;
-    color: #0f141c;
-    
+    color: #0f141c;   
 }
 
-    .btn-menu {
-        background-color:#08b0ff;
-        color: #0f141c;
-        border: none; 
-        padding: 12px 30px; 
-        font-size: 16px; 
-        cursor: pointer; 
-        border-radius: 10px; 
-        transition: background-color 0.3s ease; 
+.btn-menu {
+    background-color:#65c7f5;
+    color: #0f141c;
+    border: none; 
+    padding: 12px 30px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    border-radius: 10px; 
+    transition: background-color 0.3s ease; 
     }
-
-   
 
     .link-menu {
         text-decoration: none;
     }
 
-    
-    .logo-menor {
-        width: 100px;
-        height: auto; 
-        border-radius:48%;
-        margin-left: 80px;
-    }
-
-    .logo-brasil {
-        width: 200px; 
-        height: auto;
-        border-radius: 10px; 
-        border: 2px solid #ccc; 
-        box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); 
-        margin-right: 35px;
-    }
-
-    .slider-img {
-        max-width:130vh; 
-        height: auto; 
-        display: inline-block; 
-        
-    }
-      #Princing {
+      .sobre {
         background-color: #333;
         padding: 50px 0; 
         margin-top: -464px;
+        color: beige;
     }
-    
+    .container-A{
+        background-image:url(/img/flor-1.jpeg);
+        width:100%;
+        height:31vh; 
+        color:whitesmoke;
+    }
 
-   
+    .navbar {
+        background-repeat: no-repeat;
+    }
 
-    
-   
+    header {
+    background-color: #24252a;
+    box-shadow: 0px 3px 10px #464646;
+    }
 
-/* --------- Desktop --------- */
-@media (min-width: 1200px) {
 
-	
-}
+    .mobile-menu-icon {
+    display: none;
+    }
 
-/* --------- iPad Vertical --------- */
+    .mobile-menu {
+    display: none;
+   }
 
-@media (min-width: 768px) and (max-width: 979px) {
+    .navbar {
+    background-repeat: no-repeat;
+   }
 
-	
-	
-
-}
-
-/* --------- Mobile Phones --------- */
+/* Estilos para dispositivos móveis (largura máxima de 767px) */
 @media (max-width: 767px) {
+    .navbar-brand {
+        padding: 0;
+    }
 
-	
+    .link-menu {
+        display: block;
+        padding: 10px;
+    }
 
+    .btn-menu {
+        width: 100%;
+    }
 }
 
-/* --------- iPhone Vertical  --------- */
-@media (max-width: 479px) {
-
-	h1 { font-size: 38px; }
-	h2 { font-size: 38px; }	
+.masthead {
+    height: 70vh;
+    min-height: 300px;
+    background-image: url('/img/high.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;
+    image-rendering: pixelated;
 }
-    
+  .bg-cover {
+    background-size: cover !important;
+}
+
+body {
+    min-height: 100vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

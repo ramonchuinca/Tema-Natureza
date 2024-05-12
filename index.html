@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="HandheldFriendly" content="true">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -14,52 +15,166 @@
 	      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
     <title>Landing-Page</title>
+    
 </head>
 <body>
-    <div class="caixa-principal" id="home">
-        <nav>
-            <picture>
-                <img src="img/ss.jpg" alt="Logo Tele" class="logo-menor">
-              </picture>
-              <img src="img/brasil2.webp" class="logo-brasil" alt="nome-brasil">
-            <ul>
-                <li>
-                    <a class="link-menu" href="#home">Ho<span>me</span></a>
-                </li>
-                <li><a class="link-menu" href="#pricing">Pricing</a></li>
-                <li><a class="link-menu" href="#login-id">Login</a></li>
-                <li>
-                    <a class="link-menu" href="#fale-comigo">
-                        <button class="btn-menu">SING UP FOR FREE</button>
-                    </a>
-                </li>
-            </ul>
-            
-        </nav>
-        <img src="img/teste.avif" class="slider-img" alt="...">
-        <img src="img/teste.avif" class="slider-img" alt="...">
-        <img src="img/teste.avif" class="slider-img" alt="...">
-        
+    <!-- Navegação -->
+  <div class="Navegação" id="home" > 
+<nav class="navbar navbar-expand-lg navbar-light bg-light shadow fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Natureza</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ms-auto">
+          <li class="link-menu active">
+            <a class="link-menu" href="#Home">Home</a>
+          </li>
+          <li class="link-menu">
+            <a class="link-menu" href="#Sobre">Sobre</a>
+          </li>
+          <li class="link-menu">
+            <a class="link-menu" href="#Login">Login</a>
+          </li>
+          <a class="link-menu" href="#home">
+            <button class="btn-menu">SING UP FOR FREE</button>
+        </a>
+        </ul>
+      </div>
     </div>
-
-    <!--SECTION COMEÇO-->
-    <section id="Princing" class="bg-dark py-5"></section>
-    <!--SECTION FIM-->
+  </nav>
   
-
-  
-
+  <!--Pagina de Image-->
+  <header class="masthead">
+    <div class="container h-100">
+      <div class="row h-100 align-items-center">
+        <div class="col-12 text-center">
+          <h1 class="fw-light text-white">A natureza é uma fonte inesgotável de beleza</h1>
+          <p class="lead text-white">Desde as majestosas montanhas até as tranquilas florestas,
+            cada elemento da natureza carrega consigo uma história única.
+           serpenteiam graciosamente pela paisagem,
+            enquanto os pássaros dançam nos céus com suas cores
+           vibrantes. Cada pôr do sol pinta o horizonte com uma paleta de cores deslumbrante,lembrando-nos</p>
+        </div>
+      </div>
+    </div>
+  </header>
+</div> 
     
+    <!--SECTION COMEÇO-->
+    <section id="Sobre" class="time-line">
+        <div class="container-xxl">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-sm-6">
+                    <h1 class="mb-3">Araras da Amazônia</h1>
+                    <p>As araras da Amazônia são verdadeiros tesouros coloridos da selva.
+                        Com suas plumagens vibrantes e voos majestosos, elas iluminam o dossel da floresta tropical.
+                        Essas aves exóticas, conhecidas por sua beleza e inteligência,
+                        desempenham um papel vital no ecossistema amazônico.
+                        Com sua diversidade de cores, que vão do azul-celeste ao vermelho-fogo, as araras encantam.
+                    </p>
+                    <a class="button-image" href="#home">
+                        <button class="btn-image">SIGN UP FOR FREE</button>
+                    </a>
+                </div>
+                <div class="col-sm-6">
+                    <img src="/img/arara.jpg" class="imagem" alt="Foto de Ramon Chuinca">
+                    <div class="texto">
+                        <h4 class="text-right">ARARA-VERMELHA</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="container-xxl">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-sm-6">
+                    <img src="/img/Onça Pintada.jpg" class="imagem" alt="Foto de Ramon Chuinca">
+                    <div class="texto-2">
+                        <h4 class="text-right">ONÇA-PINTADA</h4>
+                    </div>
+                </div>
+                
+                <div class="col-sm-6">
+                    <div class="ajuste-1"> 
+                    <h1 class="mb-3">A Majestosa Onça-Pintada</h1>
+                    <p>A onça-pintada, também conhecida como jaguar,
+                        é o maior felino das Américas e um símbolo de força
+                        e elegância na fauna selvagem.Com sua pelagem dourada e pintas negras distintivas, ela domina as florestas tropicais da América do Sul, desde a Amazônia até os pampas argentinos. Como predador de topo,
+                        a onça-pintada desempenha um papel vital no equilíbrio dos ecossistemas
+                    </p>
+                    <a class="button-image" href="#home">
+                        <button class="btn-image">SIGN UP FOR FREE</button>
+                    </a>
+                </div>
+                </div>
+                
+            </div>
+        </div>
+    
+        <div class="container-xxl">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-sm-6">
+                    <h1 class="mb-3">Corujas:Guardiãs da Noite</h1>
+                    <p>
+                        As corujas são aves noturnas conhecidas por sua sabedoria e mistério. Com olhos grandes e aguçados, elas caçam suas presas na escuridão, destacando-se como predadores silenciosos da noite. Sua plumagem macia
+                        e adaptada às condições de voo silencioso as tornam excelentes caçadoras
+
+                    </p>
+                    <a class="button-image" href="#Home">
+                        <button class="btn-image">SIGN UP FOR FREE</button>
+                    </a>
+                </div>
+                <div class="col-sm-6">
+                    <img src="/img/coruja.jpg" class="imagem" alt="Foto de Ramon Chuinca">
+                    <div class="texto-3">
+                        <h4 class="text-right">CORUJA-NOTURNA</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!--SECTION FIM-->
+
+    <!--SECTION 2 COMEÇO-->
+    <section id="Login" class="header-1"> 
+    <div style="background: url(/img/R.jpeg)" class="jumbotron bg-cover text-white">
+        <div class="container py-5 text-center">
+            <h1 class="display-4 font-weight-bold">Bootstrap static header</h1>
+            <p class="font-italic mb-0">Using simple jumbotron-style component, create a nice Bootstrap 4 header with a background image.</p>
+            <p class="font-italic">Snippe by
+                <a href="https://bootstrapious.com" class="text-white">
+                    
+                </a>
+            </p>
+            <a href="#" role="button" class="btn btn-primary px-5">See All Features</a>
+        </div>
+    </div>
+    <!----------------------------------->
+   </div>
+    </section>
+<!--SECTION 2 FIM-->
+
+<!--FOOTER INICIO-->
+
+<!--FOOTER FIM-->
 
 
 
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
             integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
          integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+<script src="assets/js/script.js"></script>
+         <!-- jQuery (para o Bootstrap) -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script defer src="app.js"></script>
+<!-- Popper.js ( para o Bootstrap) -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.10.2/umd/popper.min.js"></script>
+<!-- Bootstrap JS -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
