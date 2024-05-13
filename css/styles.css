@@ -113,20 +113,10 @@ a {
         margin-top: -464px;
         color: beige;
     }
-    .container-A{
-        background-image:url(/img/flor-1.jpeg);
-        width:100%;
-        height:31vh; 
-        color:whitesmoke;
-    }
+   
 
     .navbar {
         background-repeat: no-repeat;
-    }
-
-    header {
-    background-color: #24252a;
-    box-shadow: 0px 3px 10px #464646;
     }
 
 
@@ -142,7 +132,7 @@ a {
     background-repeat: no-repeat;
    }
 
-/* Estilos para dispositivos móveis (largura máxima de 767px) */
+
 @media (max-width: 767px) {
     .navbar-brand {
         padding: 0;
@@ -177,6 +167,43 @@ body {
     min-height: 100vh;
 }
 
+body {
+    min-height: 100vh;
+    font-family: 'Sanchez', serif;
+  }
+  
+  
+  .footer_texto img {
+    width: 30vh; /* Aumentando a largura da imagem para deixá-la um pouco maior */
+    height: auto; /* Mantendo a proporção da altura */
+    margin-right: 10px; 
+}
+
+
+.social {
+    display: flex;
+    gap:px;
+}
+
+.social img {
+    height: 30px;
+    border-radius: 50%;
+}
+
+.social a {
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+   
+}
+
+.social a:hover {
+    transform: scale(1.3);
+    transition: 0.5s;
+}
 
 
 
