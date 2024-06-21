@@ -146,7 +146,21 @@ a {
     .btn-menu {
         width: 100%;
     }
-}
+
+    .ajuste-1{
+        margin-left:-13px;
+        font-size:1.5rem ;
+    }
+
+    *{
+        margin-left:1%;
+        
+    }
+    .texto h4 {
+        margin-right: 100px;
+    }
+
+}   
 
 .masthead {
     height: 70vh;
