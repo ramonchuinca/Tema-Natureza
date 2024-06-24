@@ -1,244 +1,321 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap");
 
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Inter', sans-serif;   
+body,
+h1,
+h2,
+h3,
+h5,
+p,
+ul {
+  margin: 0px;
+  padding: 0px;
+  box-sizing:border-box;
+  font-family:Georgia, serif, sans-serif;
 }
 nav {
-    display: inline-flex;
-    align-items:center;
-    justify-content: space-between;
-    padding-left: 55px;
-    padding-right:50px;
-    padding-top: 25px;  
-}
-
-.imagem {
-    height: 300px;
-    width: 300px; 
-    border-radius: 50%;
-    border: 2px solid red;
-    cursor: pointer;
-    align-items: center;
-    margin: 0 8px;
-    margin-top: 25px;margin-left: 50px;
-    display: flex;
-    margin-right: -115px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 55px;
+  padding-right: 50px;
+  padding-top: 25px;
   
 }
 
-.texto h4{
-    color: #000;
-    margin-right:250px;
-    color:red;  
-}
-
-.texto-2{
-    color: #000;
-    margin-right:280px;
-    color:red;  
-}
-.texto-3 {
-    color:red;
-    margin-right: 370px;
-}
-.ajuste-1{
-    margin-left:-200px;
-    font-size: medium;
-}
-
-.btn-image {
-    background-color:#65c7f5;
-    color: #0f141c;
-    border: none; 
-    padding: 12px 30px; 
-    font-size: 16px; 
-    cursor: pointer; 
-    border-radius: 10px; 
-    transition: background-color 0.3s ease;
-    margin-top: 40px;
-    
-}
-.col-sm-6 p{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: smaller;
-}
-.portfolio {
-    color: green;
-    font-size: 40px;
-    font-weight: 500;
-    display: inline-flex;
-}
-
-li {
-    color: black;
-    list-style: none;
-    display: inline-block;
-    font-size: 18px;
-    margin-right: 30px;
-    cursor: pointer;
-}
-
-a {
-    display: flex;
-    color: aliceblue;
+.container .navbar-brand {
+  color: #000;
+  margin-top:12px;
 }
 
 .link-menu {
-    text-decoration: none;
-    color: #0f141c;   
+  text-decoration: none;
+  color:#000;
+  margin-top:10px;
 }
 
 .btn-menu {
-    background-color:#65c7f5;
-    color: #0f141c;
-    border: none; 
-    padding: 12px 30px; 
-    font-size: 16px; 
-    cursor: pointer; 
-    border-radius: 10px; 
-    transition: background-color 0.3s ease; 
-    }
+  background-color: #65c7f5;
+  color: #0f141c;
+  border: none;
+  padding: 12px 30px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+}
 
-    .link-menu {
-        text-decoration: none;
-    }
+.link-menu {
+  text-decoration: none;
+}
+.imagem {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  border: 2px solid red;
+  cursor: pointer;
+  align-items: center;
+  margin: 0 8px;
+  margin-top: 25px;
+  margin-left: 50px;
+  display: flex;
+  animation: float 5s ease-in-out infinite;
+}
 
-      .sobre {
-        background-color: #333;
-        padding: 50px 0; 
-        margin-top: -464px;
-        color: beige;
-    }
-   
+#foto-1 {
+    margin-right: -20% ;
+}
 
-    .navbar {
-        background-repeat: no-repeat;
-    }
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10%);
+  }
+}
+.texto-1{
+  margin-right: 52%;
+  color: red;
+}
+
+.texto-2 {
+  margin-right: 55%;
+  color: red;
+}
+.texto-3 {
+  color: red;
+  margin-right: 53%;
+}
 
 
-    .mobile-menu-icon {
-    display: none;
-    }
+.ajuste-1 {
+  margin-left: -200px;
+  font-size: medium;
+}
 
-    .mobile-menu {
-    display: none;
-   }
+.btn-image {
+  background-color: #65c7f5;
+  color: #0f141c;
+  border: none;
+  padding: 12px 30px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+  margin-top: 40px;
+}
+.col-sm-6 p {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: smaller;
+}
 
-    .navbar {
-    background-repeat: no-repeat;
-   }
+li {
+  list-style: none;
+  display: inline-block;
+  font-size: 18px;
+  margin-right: 30px;
+  cursor: pointer;
+}
+
+a {
+  display: flex;
+  color: aliceblue;
+}
 
 
-@media (max-width: 767px) {
-    .navbar-brand {
-        padding: 0;
-    }
+.sobre {
+  background-color: #333;
+  padding: 50px 0;
+  margin-top: -464px;
+  color: beige;
+}
 
-    .link-menu {
-        display: block;
-        padding: 10px;
-    }
+.navbar {
+  background-repeat: no-repeat;
+}
 
-    .btn-menu {
-        width: 100%;
-    }
+.mobile-menu-icon {
+  display: none;
+}
 
-    .ajuste-1{
-        margin-left:-13px;
-        font-size:1.5rem ;
-    }
+.mobile-menu {
+  display: none;
+}
 
-    *{
-        margin-left:1%;
-        
-    }
-    .texto h4 {
-        margin-right: 100px;
-    }
-
-}   
+.navbar {
+  background-repeat: no-repeat;
+}
 
 .masthead {
-    height: 70vh;
-    min-height: 300px;
-    background-image: url('/img/high.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    image-rendering: -webkit-optimize-contrast;
-    image-rendering: crisp-edges;
-    image-rendering: pixelated;
+  height: 70vh;
+  min-height: 300px;
+  background-image: url("/img/high.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+  image-rendering: pixelated;
+  /* object-fit: cover; */
 }
 .bg-cover {
-    background-size: cover !important;
+  background-size: cover !important;
 }
 
 body {
-    min-height: 100vh;
+  min-height: 100vh;
 }
 
 body {
-    min-height: 100vh;
-    font-family: 'Sanchez', serif;
-  }
-  
-  
-  .footer_texto img {
-    width: 30vh; /* Aumentando a largura da imagem para deixá-la um pouco maior */
-    height: auto; /* Mantendo a proporção da altura */
-    margin-right: 10px; 
+  min-height: 100vh;
+  font-family: "Sanchez", serif;
 }
 
+.footer_texto img {
+  width: 30vh; /* Aumentando a largura da imagem para deixá-la um pouco maior */
+  height: auto; /* Mantendo a proporção da altura */
+  margin-right: 10px;
+}
 
 .social {
-    display: flex;
-    gap:px;
+  display: flex;
+  gap: px;
 }
 
 .social img {
-    height: 30px;
-    border-radius: 50%;
+  height: 30px;
+  border-radius: 50%;
 }
 
 .social a {
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    height: 50px;
-    width: 50px;
-    cursor: pointer;
-   
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
 }
 
 .social a:hover {
-    transform: scale(1.3);
-    transition: 0.5s;
+  transform: scale(1.3);
+  transition: 0.5s;
+}
+
+@media (max-width: 767px) {
+  .navbar-brand {
+    padding: 0;
+  }
+
+  .link-menu {
+    display: block;
+    padding: 10px;
+  }
+
+  .btn-menu {
+    width: 100%;
+  }
+
+  .ajuste-1 {
+    margin-left: -13px;
+    font-size: 1.5rem;
+  }
+
+  * {
+    margin-left: 1%;
+  }
+  .texto-1 {
+    margin-right: 47px;
+  }
+  .texto-2 {
+   margin-right: 56px;
+  }
+  .texto-3 {
+    margin-right: 44px;
+   }
 }
 
 
+@media (max-width: 1024px) {
+  .navbar-brand {
+    padding: 0;
+  }
 
+  .link-menu {
+    display: block;
+    padding: 10px;
+  }
 
+  .btn-menu {
+    width: 100%;
+  }
 
+  .ajuste-1 {
+    margin-left: -13px;
+    font-size: 1.5rem;
+  }
 
+  * {
+    margin-left: 1%;
+  }
+  .texto h4 {
+    margin-right: 100px;
+  }
 
+  .btn-image {
+    margin-left: 27%;
+  }
 
+  .texto-1 {
+    margin-right: 190px;
+}
+.texto-2 {
+    margin-right: 56px;
+   }
+   .texto-3 {
+    margin-right: 44px;
+   }
 
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@media (max-width: 933px) {
+    .navbar-brand {
+      padding: 0;
+    }
+  
+    .link-menu {
+      display: block;
+      padding: 10px;
+    }
+  
+    .btn-menu {
+      width: 100%;
+    }
+  
+    .ajuste-1 {
+      margin-left: -13px;
+      font-size: 1.5rem;
+    }
+  
+    * {
+      margin-left: 1%;
+    }
+    .texto h4 {
+      margin-right: 100px;
+    }
+  
+    .btn-image {
+      margin-left: 27%;
+    }
+  
+    .texto-1 {
+      margin-right: 25%;
+  }
+  .texto-2 {
+      margin-right: 30%;
+     }
+     .texto-3 {
+      margin-right: 24%;
+     }
+  
+  }
