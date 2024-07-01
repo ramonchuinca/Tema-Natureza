@@ -163,9 +163,11 @@ a {
   image-rendering:-webkit-optimize-contrast;
   image-rendering: crisp-edges;
   image-rendering: pixelated;
-  
   /* object-fit: cover; */
-  
+}
+
+a {
+  text-decoration:inherit !important;
 }
 .bg-cover {
   background-size: cover !important;
