@@ -15,148 +15,181 @@
     <link rel="stylesheet" href="css/styles.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-
+     
     <title>NATUREZA</title>
 
 </head>
 
 <body>
     <!-- Navegação -->
-    <div class="Navegação" id="home">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light shadow fixed-top">
-            <div class="container">
-                <a class="navbar-brand" href="#">
-                    <h3> NATUREZA E VIDA </h3>
+<nav class="navbar navbar-expand-lg glass-nav fixed-top">
+    <div class="container">
+        <a class="navbar-brand d-flex align-items-center" href="#">
+            <!-- Pode ser imagem -->
+            <!-- <img src="img/logo.png" class="logo-img"> -->
+
+            <!-- Ou vídeo pequeno circular -->
+            <video class="logo-video" autoplay muted loop>
+                <source src="./video/video1_small (1).mp4" type="video/mp4">
+            </video>
+
+            <h3 class="ms-2">NATUREZA E VIDA</h3>
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarResponsive" aria-controls="navbarResponsive"
+                aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ms-auto">
+                <li><a class="cool-link" href="#Social">Social</a></li>
+                <li><a class="cool-link" href="#Sobre">Sobre</a></li>
+                <li><a class="cool-link" href="#Mais">Mais</a></li>
+
+                <a href="#home">
+                    <button class="btn-menu-modern">SING UP FOR FREE</button>
                 </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="link-menu active">
-                            <a class="link-menu" href="#Social">Social</a>
-                        </li>
-                        <li class="link-menu">
-                            <a class="link-menu" href="#Sobre">Sobre</a>
-                        </li>
-                        <li class="link-menu">
-                            <a class="link-menu" href="#Mais">Mais</a>
-                        </li>
-                        <a class="link-menu" href="#home">
-                            <button class="btn-menu">SING UP FOR FREE</button>
-                        </a>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
 
         <!--Pagina de Image-->
-        <header class="masthead">
-            <div class="container h-100">
-                <div class="row h-100 align-items-center">
-                    <div class="col-12 text-center">
-                        <h1 class="fw-light text-white">A natureza é uma fonte inesgotável de beleza</h1>
-                        <p class="lead text-white">Desde as majestosas montanhas até as tranquilas florestas,
-                            cada elemento da natureza carrega consigo uma história única.
-                            serpenteiam graciosamente pela paisagem,
-                            enquanto os pássaros dançam nos céus com suas cores
-                            vibrantes. Cada pôr do sol pinta o horizonte com uma paleta de cores
-                            deslumbrante,lembrando-nos</p>
-                    </div>
-                </div>
-            </div>
-        </header>
+<header class="masthead">
+
+    <!-- CONTAINER DOS VÍDEOS -->
+    <div class="video-container">
+        <video class="video-bg active" autoplay muted loop playsinline>
+            <source src="./video/video1_small (1).mp4" type="video/mp4">
+        </video>
+
+        <video class="video-bg" autoplay muted loop playsinline>
+            <source src="./video/video1_small (2).mp4" type="video/mp4">
+        </video>
+
+        <video class="video-bg" autoplay muted loop playsinline>
+            <source src="./video/video3_small.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <!-- Filtro -->
+    <div class="color-filter"></div>
+
+    <!-- Partículas -->
+    <div id="particles-js"></div>
+
+    <!-- TEXTO -->
+    <div class="container header-content">
+        <h1 id="title">A natureza é uma fonte inesgotável de beleza</h1>
+        <p id="subtitle">Cada canto da natureza carrega uma história...</p>
+        <a id="btnHero" href="#Sobre" class="btn-hero">Explorar</a>
+    </div>
+
+</header>
+
+
+
+
+
     </div>
 
     <!--SECTION COMEÇO-->
-    <section id="Sobre" class="time-line">
-        <div class="container-xl">
-            <div class="row justify-content-center align-items-center ">
-                <div class="col-sm-6 p-4">
+   <section id="araras" class="time-line" style="background: blue;">
+    <div class="container-xl">
+        <div class="row justify-content-center align-items-center">
+            <div class="col-sm-6 p-4">
+                <h1 class="mb-3">Araras da Amazônia</h1>
+                <h5>As araras da Amazônia são verdadeiros tesouros coloridos da selva.
+                    Com suas plumagens vibrantes e voos majestosos, elas iluminam o dossel da floresta tropical.
+                    Essas aves exóticas, conhecidas por sua beleza e inteligência,
+                    desempenham um papel vital no ecossistema amazônico.
+                    Com sua diversidade de cores, que vão do azul-celeste ao vermelho-fogo, as araras encantam.
+                </h5>
+                <a class="button-image" href="#home">
+                    <button class="btn-image">SIGN UP FOR FREE</button>
+                </a>
+            </div>
 
-                    <h1 class="mb-3">Araras da Amazônia</h1>
-                    <h5>As araras da Amazônia são verdadeiros tesouros coloridos da selva.
-                        Com suas plumagens vibrantes e voos majestosos, elas iluminam o dossel da floresta tropical.
-                        Essas aves exóticas, conhecidas por sua beleza e inteligência,
-                        desempenham um papel vital no ecossistema amazônico.
-                        Com sua diversidade de cores, que vão do azul-celeste ao vermelho-fogo, as araras encantam.
-                    </h5>
-                    <a class="button-image" href="#home">
-                        <button class="btn-image">SIGN UP FOR FREE</button>
-                    </a>
-                </div>
-
-                <div class="col-sm-6 p-4 ">
-                    <div class="imgAnimais">
-                        <img src="./img/arara.jpg" class="imagem" alt="Foto de Ramon Chuinca">
-                        <div class="texto-1">
-                            <h4 class="text-center">ARARA-VERMELHA</h4>
-                        </div>
+            <div class="col-sm-6 p-4">
+                <div class="imgAnimais">
+                    <img src="./img/arara.jpg" class="imagem" alt="Arara">
+                    <div class="texto-1">
+                        <h4 class="text-center">ARARA-VERMELHA</h4>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
+</section>
 
 
-        <div class="container-xl">
-            <div class="row justify-content-center align-items-center ">
-                <div class="col-sm-6 p-4 ">
-                    <div class="imgAnimais">
-                        <img src="./img/Onça Pintada.jpg" class="imagem" alt="Foto de Ramon Chuinca">
-                        <div>
-                            <h4 class="text-right">ONÇA-PINTADA</h4>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 p-4">
-                    <h1 class="mb-3">A Majestosa Onça-Pintada</h1>
-                    <h5>A onça-pintada, também conhecida como jaguar,
-                        é o maior felino das Américas e um símbolo de força
-                        e elegância na fauna selvagem.Com sua pelagem dourada e pintas negras distintivas, ela domina as
-                        florestas tropicais da América do Sul, desde a Amazônia até os pampas argentinos. Como predador
-                        de topo,
-                        a onça-pintada desempenha um papel vital no equilíbrio dos ecossistemas
-                    </h5>
-                    <a class="button-image" href="#home">
-                        <button class="btn-image">SIGN UP FOR FREE</button>
-                    </a>
-
-                </div>
-
-            </div>
-        </div>
-
-
-        <div class="container-xl">
-            <div class="row justify-content-center align-items-center">
-                <div class="col-sm-6">
-                    <h1 class="mb-3">Corujas:Guardiãs da Noite</h1>
-                    <h5>
-                        As corujas são aves noturnas conhecidas por sua sabedoria e mistério. Com olhos grandes e
-                        aguçados, elas caçam suas presas na escuridão, destacando-se como predadores silenciosos da
-                        noite. Sua plumagem macia
-                        e adaptada às condições de voo silencioso as tornam excelentes caçadoras
-
-                    </h5>
-                    <a class="button-image" href="#Home">
-                        <button class="btn-image">SIGN UP FOR FREE</button>
-                    </a>
-                </div>
-                <div class="col-sm-6">
-                    <div class="imgAnimais">
-                        <img src="./img/coruja.jpg" class="imagem" alt="Foto de Ramon Chuinca">
-                        <div>
-                            <h4 class="text-right">CORUJA-NOTURNA</h4>
-                        </div>
+<section id="onca" class="time-line" style="background: black;">
+    <div class="container-xl">
+        <div class="row justify-content-center align-items-center">
+            
+            <div class="col-sm-6 p-4">
+                <div class="imgAnimais">
+                    <img src="./img/Onça Pintada.jpg" class="imagem" alt="Onça-Pintada">
+                    <div>
+                        <h4 class="text-right">ONÇA-PINTADA</h4>
                     </div>
                 </div>
             </div>
-        </div>
 
-    </section>
+            <div class="col-sm-6 p-4">
+                <h1 class="mb-3">A Majestosa Onça-Pintada</h1>
+                <h5>A onça-pintada, também conhecida como jaguar,
+                    é o maior felino das Américas e um símbolo de força
+                    e elegância na fauna selvagem. Com sua pelagem dourada e pintas negras distintivas, ela domina as
+                    florestas tropicais da América do Sul. Como predador de topo,
+                    desempenha um papel vital no equilíbrio dos ecossistemas.
+                </h5>
+                <a class="button-image" href="#home">
+                    <button class="btn-image">SIGN UP FOR FREE</button>
+                </a>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<section id="corujas" class="time-line" style="background: red;">
+    <div class="container-xl">
+        <div class="row justify-content-center align-items-center">
+            
+            <div class="col-sm-6 p-4 content-text">
+                <h1 class="mb-3">Corujas: Guardiãs da Noite</h1>
+                <h5>
+                    As corujas são aves noturnas conhecidas por sua sabedoria e mistério. 
+                    Com olhos grandes e aguçados, elas caçam suas presas na escuridão, destacando-se como predadores silenciosos. 
+                    Sua plumagem macia e adaptada ao voo silencioso as torna excelentes caçadoras.
+                </h5>
+                <a class="button-image" href="#home">
+                    <button class="btn-image">SIGN UP FOR FREE</button>
+                </a>
+            </div>
+
+            <div class="col-sm-6 p-4 content-image">
+                <div class="imgAnimais">
+                    <img src="./img/coruja.jpg" class="imagem" alt="Coruja">
+                    <div>
+                        <h4 class="text-right">CORUJA-NOTURNA</h4>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+
+
     <!--SECTION FIM-->
 
     <!--SECTION 2 COMEÇO-->
@@ -264,6 +297,99 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.10.2/umd/popper.min.js"></script>
     <!-- Bootstrap JS -->
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/TextPlugin.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+
+<script src="./js/video-rotate.js"></script>
+
+
+
+<script>
+    gsap.registerPlugin(TextPlugin);
+
+    // animação de texto digitando
+    gsap.to("#title", {
+        duration: 3,
+        text: "A natureza é uma fonte inesgotável de beleza 🌿",
+        ease: "power2.out",
+        delay: 0.5
+    });
+
+    // fade e subida suave no subtítulo
+    gsap.from("#subtitle", {
+        opacity: 0,
+        y: 30,
+        duration: 1.5,
+        delay: 3,
+        ease: "power2.out"
+    });
+
+    // botão animado
+    gsap.from("#btnHero", {
+        opacity: 0,
+        scale: 0.6,
+        duration: 1,
+        delay: 3.5,
+        ease: "back.out(1.7)"
+    });
+</script>
+<script>
+gsap.registerPlugin(ScrollTrigger);
+
+// Título
+gsap.from("#corujas h1", {
+    scrollTrigger: {
+        trigger: "#corujas",
+        start: "top 80%",
+    },
+    y: 50,
+    opacity: 0,
+    duration: 1.2,
+    ease: "power3.out"
+});
+
+// Texto e botão
+gsap.from("#corujas h5, #corujas .btn-image", {
+    scrollTrigger: {
+        trigger: "#corujas",
+        start: "top 75%",
+    },
+    x: -80,
+    opacity: 0,
+    duration: 1.3,
+    ease: "power2.out",
+    stagger: 0.2
+});
+
+// Imagem
+gsap.from(".content-image", {
+    scrollTrigger: {
+        trigger: "#corujas",
+        start: "top 70%",
+    },
+    x: 100,
+    opacity: 0,
+    scale: 0.9,
+    duration: 1.3,
+    ease: "power3.out"
+});
+</script>
+
+
+
+
+<script>
+particlesJS.load('particles-js',
+  'particles.json',
+  function() {
+    console.log('particles loaded');
+  }
+);
+</script>
+
 </body>
 
 </html>
