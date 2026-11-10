@@ -1,427 +1,407 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="HandheldFriendly" content="true">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
-        integrity="sha384-xxzvZ4DJ2DpJCm1O51djLh1vZ2s6Qo1fOH7u58MWBs/H+JwY2cTkZdM+hEYgIbbV" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;500&display=swap" rel="stylesheet" />
+    <title>Natureza e Vida | Floresta Amazônica</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-
-     
-    <title>NATUREZA</title>
-
 </head>
-
 <body>
-    <!-- Navegação -->
-<nav class="navbar navbar-expand-lg glass-nav fixed-top">
-    <div class="container">
-        <a class="navbar-brand d-flex align-items-center" href="#">
-            <!-- Pode ser imagem -->
-            <!-- <img src="img/logo.png" class="logo-img"> -->
 
-            <!-- Ou vídeo pequeno circular -->
-            <video class="logo-video" autoplay muted loop>
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg fixed-top glass-nav" id="navbar">
+    <div class="container">
+        <a class="navbar-brand d-flex align-items-center gap-2" href="#inicio">
+            <video class="logo-video" autoplay muted loop playsinline>
                 <source src="./video/video1_small (1).mp4" type="video/mp4">
             </video>
-
-            <h3 class="ms-2">NATUREZA E VIDA</h3>
+            <span class="brand-text">NATUREZA E VIDA</span>
         </a>
 
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarResponsive" aria-controls="navbarResponsive"
-                aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarMenu" aria-controls="navbarMenu"
+                aria-expanded="false" aria-label="Abrir menu">
+            <i class="bi bi-list text-white fs-2"></i>
         </button>
 
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-            <ul class="navbar-nav ms-auto">
-                <li><a class="cool-link" href="#Social">Social</a></li>
-                <li><a class="cool-link" href="#Sobre">Sobre</a></li>
-                <li><a class="cool-link" href="#Mais">Mais</a></li>
-
-                <a href="#home">
-                    <!-- <button class="btn-menu-modern">SING UP FOR FREE</button> -->
-                </a>
+        <div class="collapse navbar-collapse" id="navbarMenu">
+            <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-3">
+                <li class="nav-item"><a class="nav-link" href="#fauna">Fauna</a></li>
+                <li class="nav-item"><a class="nav-link" href="#rio">Rio Amazonas</a></li>
+                <li class="nav-item"><a class="nav-link" href="#plantas">Plantas</a></li>
+                <li class="nav-item"><a class="nav-link" href="#mais">Mais</a></li>
+                <li class="nav-item"><a class="nav-link" href="#social">Redes</a></li>
             </ul>
         </div>
     </div>
 </nav>
 
+<!-- HERO -->
+<header class="hero" id="inicio">
+    <video class="hero-video active" autoplay muted loop playsinline>
+        <source src="./video/video1_small (1).mp4" type="video/mp4">
+    </video>
+    <video class="hero-video" autoplay muted loop playsinline>
+        <source src="./video/video1_small (2).mp4" type="video/mp4">
+    </video>
+    <video class="hero-video" autoplay muted loop playsinline>
+        <source src="./video/video3_small.mp4" type="video/mp4">
+    </video>
 
-
-        <!--Pagina de Image-->
-<header class="masthead">
-
-    <!-- CONTAINER DOS VÍDEOS -->
-    <div class="video-container">
-        <video class="video-bg active" autoplay muted loop playsinline>
-            <source src="./video/video1_small (1).mp4" type="video/mp4">
-        </video>
-
-        <video class="video-bg" autoplay muted loop playsinline>
-            <source src="./video/video1_small (2).mp4" type="video/mp4">
-        </video>
-
-        <video class="video-bg" autoplay muted loop playsinline>
-            <source src="./video/video3_small.mp4" type="video/mp4">
-        </video>
-    </div>
-
-    <!-- Filtro -->
-    <div class="color-filter"></div>
-
-    <!-- Partículas -->
+    <div class="hero-overlay"></div>
     <div id="particles-js"></div>
 
-    <!-- TEXTO -->
-    <div class="container header-content">
-        <h1 id="title">A natureza é uma fonte inesgotável de beleza</h1>
-        <p id="subtitle">Cada canto da natureza carrega uma história...</p>
-        <a id="btnHero" href="#Sobre" class="btn-hero">Explorar</a>
+    <div class="hero-content container text-center">
+        <span class="section-tag" data-aos="fade-down">Floresta Amazônica</span>
+        <h1 id="title" class="display-4 fw-bold"></h1>
+        <p id="subtitle" class="lead mt-3">Cada canto da natureza carrega uma história...</p>
+        <a href="#fauna" class="btn btn-glow btn-lg mt-4" id="btnHero">Explorar</a>
     </div>
 
+    <a href="#fauna" class="scroll-down" aria-label="Rolar para baixo"><span></span></a>
 </header>
 
-    </div>
+<!-- SEÇÃO: ARARAS -->
+<section id="fauna" class="nature-section">
+    <video class="section-bg-video" autoplay muted loop playsinline preload="metadata">
+        <source src="./video/video1_small (1).mp4" type="video/mp4">
+    </video>
+    <div class="section-overlay"></div>
 
-    <!--SECTION COMEÇO-->
-   <section id="araras" class="time-line section-video">
-
-    <!-- Vídeo de fundo -->
-    <div class="video-bg active" >
-        <video autoplay muted loop playsinline>
-            <source src="./video/video1_small (1).mp4" type="video/mp4">
-        </video>
-    </div>
-
-    <!-- Conteúdo -->
-    <div class="container-xl content">
-        <div class="row justify-content-center align-items-center">
-            <div class="col-sm-6 p-4">
-                <h1 class="mb-3">Araras da Amazônia</h1>
-                <h5>
+    <div class="container position-relative z-2 py-5">
+        <div class="row align-items-center g-5 py-4">
+            <div class="col-lg-6" data-aos="fade-right">
+                <span class="section-tag">Fauna</span>
+                <h2 class="section-title">Araras da Amazônia</h2>
+                <p class="glass-card">
                     As araras da Amazônia são verdadeiros tesouros coloridos da selva.
                     Com suas plumagens vibrantes e voos majestosos, elas iluminam o dossel da floresta tropical.
-                    Essas aves exóticas, conhecidas por sua beleza e inteligência,
-                    desempenham um papel vital no ecossistema amazônico.
-                </h5>
-            </div>
-
-            <div class="col-sm-6 p-4">
-                <div class="imgAnimais">
-                    <img src="./img/arara.jpg" class="imagem" alt="Arara">
-                    <div class="texto-1">
-                        <h4 class="text-center">ARARA-VERMELHA</h4>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-</section>
-
-
-<section id="onca" class="time-line section-video" >
-
-    <!-- Vídeo de fundo -->
-    <div class="video-bg active" autoplay muted loop playsinline>
-        <video autoplay muted loop playsinline>
-            <source src="./video/video3_small.mp4" type="video/mp4">
-        </video>
-    </div>
-
-    <!-- Conteúdo -->
-    <div class="container-xl content">
-    <div class="row justify-content-center align-items-center">
-
-        <!-- IMAGEM COM AOS (fade-right) -->
-        <div class="col-sm-6 p-4" 
-             data-aos="fade-right"
-             data-aos-offset="300"
-             data-aos-easing="ease-in-sine">
-             
-            <div class="imgAnimais">
-                <img src="./img/Onça Pintada.jpg" class="imagem" alt="Onça-Pintada">
-                <h4 class="text-right">ONÇA-PINTADA</h4>
-            </div>
-        </div>
-
-        <!-- TEXTO COM AOS (fade-left) -->
-        <div class="col-sm-6 p-4"
-             data-aos="fade-left"
-             data-aos-anchor="#example-anchor"
-             data-aos-offset="500"
-             data-aos-duration="500">
-
-            <h1 class="mb-3">A Majestosa Onça-Pintada</h1>
-            <h5>
-                A onça-pintada, também conhecida como jaguar,
-                é o maior felino das Américas e um símbolo de força e elegância.
-                Como predador de topo, desempenha um papel vital no equilíbrio dos ecossistemas.
-            </h5>
-        </div>
-
-    </div>
-</div>
-
-
-</section>
-
-
-
-<section id="corujas" class="time-line section-video">
-
-    <!-- Vídeo de fundo -->
-    <div class="video-bg active" autoplay muted loop playsinline>
-        <video autoplay muted loop playsinline>
-            <source src="./video/video1_small (2).mp4" type="video/mp4">
-        </video>
-    </div>
-
-    <!-- Conteúdo -->
-    <div class="container-xl content">
-        <div class="row justify-content-center align-items-center">
-
-            <div class="col-sm-6 p-4">
-                <h1 class="mb-3">Corujas: Guardiãs da Noite</h1>
-                <h5>
-                    As corujas são aves noturnas conhecidas por sua sabedoria e mistério. 
-                    Com olhos grandes e aguçados, elas caçam presas na escuridão,
-                    destacando-se como predadores silenciosos.
-                </h5>
-            </div>
-
-            <div class="col-sm-6 p-4">
-                <div class="imgAnimais">
-                    <img src="./img/coruja.jpg" class="imagem" alt="Coruja">
-                    <h4 class="text-right">CORUJA-NOTURNA</h4>
-                </div>
-            </div>
-
-        </div>
-    </div>
-
-</section>
-
-
-
-
-    <!--SECTION FIM-->
-
-    <!--SECTION 2 COMEÇO-->
-    <section id="Mais" class="header-1">
-        <div style="background-image: url(./img/top.jpeg)" class="jumbotron bg-cover text-white">
-            <div class="container py-5 text-center">
-                <h1 class="display-4 font-weight-bold">Araras: Beleza e Cores da Amazônia</h1>
-                <p class="font-italic mb-0">
-                    As araras vermelhas e azuis da Amazônia são verdadeiros tesouros da selva tropical.Com suas </p>
-                <p class="font-italic">plumagens vibrantes e voos majestosos, elas iluminam o dossel da floresta com uma
-                    paleta de cores
-                    <a href="https://bootstrapious.com" class="text-white">
-
-                    </a>
+                    Essas aves exóticas, conhecidas por sua beleza e inteligência, desempenham um papel vital no ecossistema amazônico.
                 </p>
-                <a href="#" role="button" class="btn btn-primary px-5">Amazonia</a>
+            </div>
+            <div class="col-lg-6 text-center" data-aos="fade-left" data-aos-delay="150">
+                <figure class="animal-figure float-anim">
+                    <img src="./img/arara.jpg" class="animal-img" alt="Arara-vermelha">
+                    <figcaption>ARARA-VERMELHA</figcaption>
+                </figure>
             </div>
         </div>
-        <!----------------------------------->
-        </div>
-    </section>
-    <!--SECTION 2 FIM-->
-
-    <!--FOOTER INICIO-->
-
-    <section id="Quem_Somos" class="Quem_Somos">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-3">
-                    <div class="footer_titulo">
-                        <h1>Amazonia</h1>
-                    </div>
-                    <div class="footer_texto">
-                        <img src="./img/lindo.jpeg" alt="Descrição da Imagem">
-
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="footer_company">
-                        <h1>Produtos</h1>
-                    </div>
-                    <div class="texto_company">
-                        <p>Óleos Essenciais Amazônicos<br><br>Artesanato Indígena<br><br>Produtos Alimentícios
-                            Típicos<br><br>Cosméticos Naturais<br><br>Livros e Guia de Turismo</p>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="footer_Region">
-                        <h1>Região</h1>
-                    </div>
-                    <div class="texto_Region">
-                        <p>Biodiversidade Única<br><br>Tribos Indígenas<br><br>Plantas Medicinais<br><br>Frutas
-                            Tropicais<br><br>Rio Amazonas<br><br>Floresta Tropical<br><br>Produtos Sustentáveis</p>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="footer_Help">
-                        <h1>Ajuda</h1>
-                    </div>
-                    <div class="texto_help">
-                        <p>Preservação Ambiental<br><br>Desenvolvimento Sustentável</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="social d-flex justify-content-center" id="Social">
-            <a href="#" target="_blank" class="mx-2">
-                <img src="./img/twiter.jpg" />
-            </a>
-            <a href="#" class="mx-2">
-                <img src="./img/instagram-sketched.svg" />
-            </a>
-            <a href="#" target="_blank" class="mx-2">
-                <img src="./img/facebook 2.jpeg" />
-            </a>
-            <a href="#" target="_blank" class="mx-2">
-                <img src="./img/linkedin3.png" />
-            </a>
-            <a href="#" target="_blank" class="mx-2">
-                <img src="./img/mensageiro.png" />
-            </a>
-        </div>
-    </section>
-    <div class="Fim d-flex justify-content-center mt-4">
-        <a>@ 2024 floresta amazonica</a>
     </div>
+</section>
 
+<!-- SEÇÃO: ONÇA -->
+<section id="onca" class="nature-section">
+    <video class="section-bg-video" autoplay muted loop playsinline preload="metadata">
+        <source src="./video/video3_small.mp4" type="video/mp4">
+    </video>
+    <div class="section-overlay"></div>
 
-    <!--FOOTER FIM-->
+    <div class="container position-relative z-2 py-5">
+        <div class="row align-items-center flex-lg-row-reverse g-5 py-4">
+            <div class="col-lg-6" data-aos="fade-left">
+                <span class="section-tag">Predador de topo</span>
+                <h2 class="section-title">A Majestosa Onça-Pintada</h2>
+                <p class="glass-card">
+                    A onça-pintada, também conhecida como jaguar, é o maior felino das Américas e um símbolo de força e elegância.
+                    Como predador de topo, desempenha um papel vital no equilíbrio dos ecossistemas.
+                </p>
+            </div>
+            <div class="col-lg-6 text-center" data-aos="fade-right" data-aos-delay="150">
+                <figure class="animal-figure float-anim">
+                    <img src="./img/Onça Pintada.jpg" class="animal-img" alt="Onça-pintada">
+                    <figcaption>ONÇA-PINTADA</figcaption>
+                </figure>
+            </div>
+        </div>
+    </div>
+</section>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
-        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
-        crossorigin="anonymous"></script>
-    <script src="assets/js/script.js"></script>
-    <!-- jQuery (para o Bootstrap) -->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script defer src="app.js"></script>
-    <!-- Popper.js ( para o Bootstrap) -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.10.2/umd/popper.min.js"></script>
-    <!-- Bootstrap JS -->
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/TextPlugin.min.js"></script>
+<!-- SEÇÃO: CORUJAS -->
+<section id="corujas" class="nature-section">
+    <video class="section-bg-video" autoplay muted loop playsinline preload="metadata">
+        <source src="./video/video1_small (2).mp4" type="video/mp4">
+    </video>
+    <div class="section-overlay"></div>
+
+    <div class="container position-relative z-2 py-5">
+        <div class="row align-items-center g-5 py-4">
+            <div class="col-lg-6" data-aos="fade-right">
+                <span class="section-tag">Aves noturnas</span>
+                <h2 class="section-title">Corujas: Guardiãs da Noite</h2>
+                <p class="glass-card">
+                    As corujas são aves noturnas conhecidas por sua sabedoria e mistério.
+                    Com olhos grandes e aguçados, elas caçam presas na escuridão, destacando-se como predadores silenciosos.
+                </p>
+            </div>
+            <div class="col-lg-6 text-center" data-aos="fade-left" data-aos-delay="150">
+                <figure class="animal-figure float-anim">
+                    <img src="./img/coruja.jpg" class="animal-img" alt="Coruja-noturna">
+                    <figcaption>CORUJA-NOTURNA</figcaption>
+                </figure>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SEÇÃO NOVA: RIO AMAZONAS -->
+<section id="rio" class="nature-section">
+    <video class="section-bg-video" autoplay muted loop playsinline preload="metadata">
+        <source src="./video/video1_small (2).mp4" type="video/mp4">
+    </video>
+    <div class="section-overlay"></div>
+
+    <div class="container position-relative z-2 py-5">
+        <div class="text-center mb-5" data-aos="fade-up">
+            <span class="section-tag">Hidrografia</span>
+            <h2 class="section-title">O Rio Amazonas</h2>
+            <p class="mx-auto text-white-50" style="max-width: 640px;">
+                Um dos maiores rios do planeta, responsável por uma das redes hídricas mais ricas e complexas do mundo.
+            </p>
+        </div>
+
+        <div class="row g-4">
+            <div class="col-md-4" data-aos="zoom-in" data-aos-delay="0">
+                <div class="stat-card">
+                    <i class="bi bi-water stat-icon"></i>
+                    <div class="stat-number" data-count="6400" data-suffix=" km">0</div>
+                    <p class="mb-0">de extensão aproximada</p>
+                </div>
+            </div>
+            <div class="col-md-4" data-aos="zoom-in" data-aos-delay="150">
+                <div class="stat-card">
+                    <i class="bi bi-fish stat-icon"></i>
+                    <div class="stat-number" data-count="2500" data-suffix="+">0</div>
+                    <p class="mb-0">espécies de peixes de água doce</p>
+                </div>
+            </div>
+            <div class="col-md-4" data-aos="zoom-in" data-aos-delay="300">
+                <div class="stat-card">
+                    <i class="bi bi-tree stat-icon"></i>
+                    <div class="stat-number" data-count="5500000" data-suffix=" km²">0</div>
+                    <p class="mb-0">de floresta tropical</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SEÇÃO NOVA: PLANTAS -->
+<section id="plantas" class="nature-section">
+    <video class="section-bg-video" autoplay muted loop playsinline preload="metadata">
+        <source src="./video/video3_small.mp4" type="video/mp4">
+    </video>
+    <div class="section-overlay"></div>
+
+    <div class="container position-relative z-2 py-5">
+        <div class="text-center mb-5" data-aos="fade-up">
+            <span class="section-tag">Biodiversidade</span>
+            <h2 class="section-title">Plantas da Amazônia</h2>
+            <p class="mx-auto text-white-50" style="max-width: 640px;">
+                A floresta guarda milhares de espécies usadas há gerações por povos tradicionais.
+            </p>
+        </div>
+
+        <div class="row g-4">
+            <div class="col-sm-6 col-lg-3" data-aos="flip-left" data-aos-delay="0">
+                <div class="plant-card h-100">
+                    <i class="bi bi-droplet-half plant-icon"></i>
+                    <h5>Andiroba</h5>
+                    <p>Óleo usado em cosméticos e tratamentos naturais da pele.</p>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-3" data-aos="flip-left" data-aos-delay="100">
+                <div class="plant-card h-100">
+                    <i class="bi bi-flower2 plant-icon"></i>
+                    <h5>Copaíba</h5>
+                    <p>Resina aromática tradicionalmente utilizada em remédios caseiros.</p>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-3" data-aos="flip-left" data-aos-delay="200">
+                <div class="plant-card h-100">
+                    <i class="bi bi-cup-hot plant-icon"></i>
+                    <h5>Guaraná</h5>
+                    <p>Fruto rico em cafeína, símbolo da cultura amazônica.</p>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-3" data-aos="flip-left" data-aos-delay="300">
+                <div class="plant-card h-100">
+                    <i class="bi bi-circle-fill plant-icon"></i>
+                    <h5>Açaí</h5>
+                    <p>Palmeira que fornece um fruto nutritivo e muito apreciado.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- BANNER PARALLAX -->
+<section id="mais" class="parallax-banner text-white text-center" style="background-image: url(./img/top.jpeg);">
+    <div class="container position-relative z-2 py-5">
+        <div class="py-5" data-aos="zoom-out">
+            <h2 class="display-4 fw-bold section-title">Araras: Beleza e Cores da Amazônia</h2>
+            <p class="lead fst-italic mx-auto" style="max-width: 720px;">
+                As araras vermelhas e azuis da Amazônia são verdadeiros tesouros da selva tropical, com plumagens que iluminam a floresta.
+            </p>
+            <a href="#inicio" class="btn btn-glow btn-lg mt-3">Voltar ao início</a>
+        </div>
+    </div>
+</section>
+
+<!-- RODAPÉ -->
+<footer class="site-footer">
+    <div class="container py-5">
+        <div class="row g-4">
+            <div class="col-md-3" data-aos="fade-up">
+                <h4 class="footer-title">Amazonia</h4>
+                <img src="./img/lindo.jpeg" alt="Paisagem da Amazônia" class="footer-img">
+            </div>
+            <div class="col-md-3" data-aos="fade-up" data-aos-delay="100">
+                <h4 class="footer-title">Produtos</h4>
+                <ul class="footer-list">
+                    <li>Óleos Essenciais Amazônicos</li>
+                    <li>Artesanato Indígena</li>
+                    <li>Produtos Alimentícios Típicos</li>
+                    <li>Cosméticos Naturais</li>
+                    <li>Livros e Guia de Turismo</li>
+                </ul>
+            </div>
+            <div class="col-md-3" data-aos="fade-up" data-aos-delay="200">
+                <h4 class="footer-title">Região</h4>
+                <ul class="footer-list">
+                    <li>Biodiversidade Única</li>
+                    <li>Tribos Indígenas</li>
+                    <li>Plantas Medicinais</li>
+                    <li>Frutas Tropicais</li>
+                    <li>Rio Amazonas</li>
+                    <li>Floresta Tropical</li>
+                </ul>
+            </div>
+            <div class="col-md-3" data-aos="fade-up" data-aos-delay="300">
+                <h4 class="footer-title">Ajuda</h4>
+                <ul class="footer-list">
+                    <li>Preservação Ambiental</li>
+                    <li>Desenvolvimento Sustentável</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="social d-flex justify-content-center gap-3 mt-5" id="social">
+            <a href="#" target="_blank" rel="noopener" class="social-link" aria-label="Twitter">
+                <img src="./img/twiter.jpg" alt="Twitter">
+            </a>
+            <a href="#" class="social-link" aria-label="Instagram">
+                <img src="./img/instagram-sketched.svg" alt="Instagram">
+            </a>
+            <a href="#" target="_blank" rel="noopener" class="social-link" aria-label="Facebook">
+                <img src="./img/facebook 2.jpeg" alt="Facebook">
+            </a>
+            <a href="#" target="_blank" rel="noopener" class="social-link" aria-label="LinkedIn">
+                <img src="./img/linkedin3.png" alt="LinkedIn">
+            </a>
+            <a href="#" target="_blank" rel="noopener" class="social-link" aria-label="Messenger">
+                <img src="./img/mensageiro.png" alt="Messenger">
+            </a>
+        </div>
+
+        <p class="text-center text-white-50 small mt-5 mb-0">© 2024 Floresta Amazônica</p>
+    </div>
+</footer>
+
+<!-- SCRIPTS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
-
-<script src="./js/video-rotate.js"></script>
-
-
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/TextPlugin.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
 
 <script>
-    gsap.registerPlugin(TextPlugin);
+    // AOS (animações ao rolar)
+    AOS.init({ duration: 900, once: true, offset: 120, easing: 'ease-out-cubic' });
 
-    // animação de texto digitando
-    gsap.to("#title", {
+    // Navbar com efeito ao rolar
+    const navbar = document.getElementById('navbar');
+    window.addEventListener('scroll', () => {
+        navbar.classList.toggle('scrolled', window.scrollY > 50);
+    });
+
+    // Hero: digitação do título e entrada do subtítulo e botão
+    gsap.registerPlugin(TextPlugin);
+    gsap.to('#title', {
         duration: 3,
-        text: "A natureza é uma fonte inesgotável de beleza 🌿",
-        ease: "power2.out",
+        text: 'A natureza é uma fonte inesgotável de beleza 🌿',
+        ease: 'none',
         delay: 0.5
     });
+    gsap.from('#subtitle', { opacity: 0, y: 30, duration: 1.5, delay: 3.5, ease: 'power2.out' });
+    gsap.from('#btnHero', { opacity: 0, scale: 0.6, duration: 1, delay: 4, ease: 'back.out(1.7)' });
 
-    // fade e subida suave no subtítulo
-    gsap.from("#subtitle", {
-        opacity: 0,
-        y: 30,
-        duration: 1.5,
-        delay: 3,
-        ease: "power2.out"
+    // Hero: troca automática entre os vídeos de fundo
+    const heroVideos = document.querySelectorAll('.hero-video');
+    let current = 0;
+    setInterval(() => {
+        heroVideos[current].classList.remove('active');
+        current = (current + 1) % heroVideos.length;
+        heroVideos[current].classList.add('active');
+    }, 8000);
+
+    // Pausa os vídeos das seções que não estão na tela (performance)
+    const sectionVideoObserver = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+            const video = entry.target;
+            if (entry.isIntersecting) {
+                video.play().catch(() => {});
+            } else {
+                video.pause();
+            }
+        });
+    }, { threshold: 0.1 });
+    document.querySelectorAll('.section-bg-video').forEach(v => sectionVideoObserver.observe(v));
+
+    // Contadores animados
+    const counterObserver = new IntersectionObserver((entries, obs) => {
+        entries.forEach(entry => {
+            if (!entry.isIntersecting) return;
+            const el = entry.target;
+            const target = Number(el.dataset.count);
+            const suffix = el.dataset.suffix || '';
+            const duration = 2000;
+            let start = null;
+
+            const step = timestamp => {
+                if (!start) start = timestamp;
+                const progress = Math.min((timestamp - start) / duration, 1);
+                el.textContent = Math.floor(target * progress).toLocaleString('pt-BR') + suffix;
+                if (progress < 1) requestAnimationFrame(step);
+            };
+            requestAnimationFrame(step);
+            obs.unobserve(el);
+        });
+    }, { threshold: 0.5 });
+    document.querySelectorAll('[data-count]').forEach(el => counterObserver.observe(el));
+
+    // Partículas no hero
+    particlesJS('particles-js', {
+        particles: {
+            number: { value: 60, density: { enable: true, value_area: 800 } },
+            color: { value: '#ffffff' },
+            opacity: { value: 0.4 },
+            size: { value: 3 },
+            line_linked: { enable: true, distance: 150, color: '#ffffff', opacity: 0.25, width: 1 },
+            move: { enable: true, speed: 1.5, direction: 'none', out_mode: 'out' }
+        },
+        interactivity: {
+            events: { onhover: { enable: true, mode: 'grab' }, onclick: { enable: true, mode: 'push' } },
+            modes: { grab: { distance: 140, line_linked: { opacity: 0.6 } }, push: { particles_nb: 3 } }
+        },
+        retina_detect: true
     });
-
-    // botão animado
-    gsap.from("#btnHero", {
-        opacity: 0,
-        scale: 0.6,
-        duration: 1,
-        delay: 3.5,
-        ease: "back.out(1.7)"
-    });
-</script>
-<script>
-gsap.registerPlugin(ScrollTrigger);
-
-// Título
-gsap.from("#corujas h1", {
-    scrollTrigger: {
-        trigger: "#corujas",
-        start: "top 80%",
-    },
-    y: 50,
-    opacity: 0,
-    duration: 1.2,
-    ease: "power3.out"
-});
-
-// Texto e botão
-gsap.from("#corujas h5, #corujas .btn-image", {
-    scrollTrigger: {
-        trigger: "#corujas",
-        start: "top 75%",
-    },
-    x: -80,
-    opacity: 0,
-    duration: 1.3,
-    ease: "power2.out",
-    stagger: 0.2
-});
-
-// Imagem
-gsap.from(".content-image", {
-    scrollTrigger: {
-        trigger: "#corujas",
-        start: "top 70%",
-    },
-    x: 100,
-    opacity: 0,
-    scale: 0.9,
-    duration: 1.3,
-    ease: "power3.out"
-});
-</script>
-
-
-
-
-<script>
-particlesJS.load('particles-js',
-  'particles.json',
-  function() {
-    console.log('particles loaded');
-  }
-);
-</script>
-
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script>
-  AOS.init();
 </script>
 </body>
-
 </html>
